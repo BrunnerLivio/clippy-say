@@ -2,14 +2,11 @@
 
 const electron = require('electron')
 const proc = require('child_process')
-const argv = require('minimist')(process.argv.slice(2))
-let params;
+const argv = require('minimist')(process.argv.slice(2));
 
-if(argv._.length) {
-    params = Object.keys(argv).map(key => key === '_' ? argv[key] : `--${key} ${argv[key]}`).join(' ');
-} else {
-    // Default value
-    params = 'Clippy';
-}
+const characters = ['Merlin', 'Clippy', 'Rover', 'Links'];
 
-proc.spawn(electron, ['.', ...params.split(' ') ]);
+let character = argv.c || argv.character || 'Clippy';
+if(characters.indexOf(character) === -1) return console.error(`"${character}" is not a valid character. Use ${characters.join(', ')} instead`);
+
+proc.spawn(electron, ['.', ...process.argv.slice(2)]);

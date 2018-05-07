@@ -1,12 +1,10 @@
 const electron = require('electron');
 const argv = require('minimist')(electron.remote.process.argv.slice(2));
 
-const speak = argv.s || argv.speak;
+const character = argv.c || argv.character || 'Clippy';
 
 const clippy = require('clippyjs');
-clippy.load(argv._[0], agent => {
+clippy.load(character, agent => {
     agent.show();
-    if(speak) {
-        agent.speak(speak);
-    }
+    agent.speak(...argv._);
 });

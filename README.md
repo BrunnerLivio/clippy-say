@@ -19,11 +19,11 @@ After the [installation](#install), `clippy-say` can be used as described.
 ```bash
 
 # Run clippy
-clippy-say
+clippysay
 
 # Run Merlin and let him speak "Hello World"
 # Possible characters: "Clippy", "Merlin", "Rover" and "Links"
-clippy-say Merlin --speak "Hello World"
+clippysay "Hello World" --character "Hello World"
 
 ```
 

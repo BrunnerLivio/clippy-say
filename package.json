@@ -1,13 +1,13 @@
 {
   "name": "clippy-say",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node cli.js"
   },
   "bin": {
-    "clippy-say": "./cli.js"
+    "clippysay": "./cli.js"
   },
   "author": "",
   "license": "ISC",
