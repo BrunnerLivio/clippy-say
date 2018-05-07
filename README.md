@@ -9,7 +9,10 @@ Bring back Clippy and his friends to your operating system of choice.
 You need to install [NodeJS 8.x.x](https://nodejs.org/en/), in order to install `clippy-say` using the node package manager ([npm](https://docs.npmjs.com/getting-started/what-is-npm)).
 
 ```bash
-npm install -g electron --unsafe-perm=true --allow-root
+# Install electron
+# If you have trouble installing it, you may use BUT WITH CAUTION
+# npm insall -g electron --unsafe-perm=true --allow-root
+npm install -g electron 
 npm install -g clippy-say
 ```
 ## Usage
