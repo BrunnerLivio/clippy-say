@@ -27,7 +27,15 @@ clippy-native Merlin --speak "Hello World"
 
 ```
 
-# Related
+## Features
+
+- Clippy!
+- A lot of CPU usage
+- Merlin
+- Even more CPU usage
+- CLIPPY
+
+## Related
 
 - [Electron](https://github.com/electron/electron)
 - [Clippy.js](https://www.smore.com/clippy-js)
