@@ -10,7 +10,7 @@ You need to install [NodeJS 8.x.x](https://nodejs.org/en/), in order to install 
 
 ```bash
 npm install -g electron --unsafe-perm=true --allow-root
-npm install clippy-native
+npm install -g clippy-native
 ```
 ## Usage
 

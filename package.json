@@ -1,6 +1,6 @@
 {
   "name": "clippy-native",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,7 @@
     "electron": "2.0.0"
   },
   "dependencies": {
-    "clippyjs": "0.0.3"
+    "clippyjs": "0.0.3",
+    "minimist": "^1.2.0"
   }
 }
