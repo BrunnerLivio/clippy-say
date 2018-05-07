@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const electron = require('electron')
 const proc = require('child_process')
 const argv = require('minimist')(process.argv.slice(2))

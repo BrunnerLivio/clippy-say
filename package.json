@@ -1,13 +1,13 @@
 {
   "name": "clippy-native",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node cli.js"
   },
   "bin": {
-    "clippy-native": "node cli.js"
+    "clippy-native": "./cli.js"
   },
   "author": "",
   "license": "ISC",
