@@ -6,6 +6,9 @@
   "scripts": {
     "start": "electron --disable-gpu --enable-transparent-visuals ."
   },
+  "bin": {
+    "clippy-native": "electron --disable-gpu --enable-transparent-visuals ."
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
