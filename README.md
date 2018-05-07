@@ -1,4 +1,4 @@
-# clippy-native
+# clippy-say
 
 Bring back Clippy and his friends to your operating system of choice.
 
@@ -6,24 +6,24 @@ Bring back Clippy and his friends to your operating system of choice.
 
 ## Install
 
-You need to install [NodeJS 8.x.x](https://nodejs.org/en/), in order to install `clippy-native` using the node package manager ([npm](https://docs.npmjs.com/getting-started/what-is-npm)).
+You need to install [NodeJS 8.x.x](https://nodejs.org/en/), in order to install `clippy-say` using the node package manager ([npm](https://docs.npmjs.com/getting-started/what-is-npm)).
 
 ```bash
 npm install -g electron --unsafe-perm=true --allow-root
-npm install -g clippy-native
+npm install -g clippy-say
 ```
 ## Usage
 
-After the [installation](#install), `clippy-native` can be used as described.
+After the [installation](#install), `clippy-say` can be used as described.
 
 ```bash
 
 # Run clippy
-clippy-native
+clippy-say
 
 # Run Merlin and let him speak "Hello World"
 # Possible characters: "Clippy", "Merlin", "Rover" and "Links"
-clippy-native Merlin --speak "Hello World"
+clippy-say Merlin --speak "Hello World"
 
 ```
 
