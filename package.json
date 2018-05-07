@@ -1,13 +1,13 @@
 {
   "name": "clippy-native",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "electron --disable-gpu --enable-transparent-visuals ."
+    "start": "node cli.js"
   },
   "bin": {
-    "clippy-native": "electron --disable-gpu --enable-transparent-visuals ."
+    "clippy-native": "node cli.js"
   },
   "author": "",
   "license": "ISC",
