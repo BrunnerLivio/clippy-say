@@ -23,7 +23,7 @@ clippysay
 
 # Run Merlin and let him speak "Hello World"
 # Possible characters: "Clippy", "Merlin", "Rover" and "Links"
-clippysay "Hello World" --character "Hello World"
+clippysay "Hello World" --character "Merlin"
 
 ```
 
