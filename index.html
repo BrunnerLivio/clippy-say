@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Clippy</title>
+  <style>
+    html,
+    body {
+      background: rgba(0, 0, 0, 0);
+      -webkit-app-region: drag;
+    }
+  </style>
+</head>
+
+<body>
+  <script>
+    // You can also require other files to run in this process
+    require('./renderer.js')
+    const clippy = require('clippyjs');
+    clippy.load('Clippy', agent => agent.show());
+  </script>
+</body>
+
+</html>

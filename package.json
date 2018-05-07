@@ -1,0 +1,17 @@
+{
+  "name": "clippy-native",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron --disable-gpu --enable-transparent-visuals ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "2.0.0"
+  },
+  "dependencies": {
+    "clippyjs": "0.0.3"
+  }
+}
