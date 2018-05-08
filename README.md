@@ -2,7 +2,7 @@
 
 Bring back Clippy and his friends to your operating system of choice.
 
-![Preview](.github/preview.png)
+![Preview](https://i.imgur.com/dlXkv4z.gif)
 
 ## Install
 
