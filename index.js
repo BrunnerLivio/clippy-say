@@ -4,19 +4,20 @@ const app = electron.app
 // Module to create native browser window.
 const BrowserWindow = electron.BrowserWindow
 
-console.log(process.argv);
-
 const url = require('url')
 const path = require('path')
 
 let mainWindow
 
 function createWindow() {
+
   mainWindow = new BrowserWindow({
-    width: 200,
-    height: 200,
+    width: 170,
+    height: 170,
+    resizeable: false,
+    maximizable: false,
     transparent: true,
-    frame: false
+    frame: false,
   })
 
   mainWindow.loadURL(url.format({

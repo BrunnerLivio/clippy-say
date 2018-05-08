@@ -38,6 +38,19 @@ clippysay "Hello my Dudes" \
 
 ```
 
+### Parameters
+
+ Parameter |     Alias     | Description | Usage
+---------- | ------------- | ----------- | ------
+`-c`       | `--character` | The character to display (e.g. "Clippy", "Merlin", "Rover" or "Links") | `clippysay "Hello World" --character "Merlin"`
+`-x`       | -             | The x-Coordinate to display the agent | `clippsay "Hello World" -x 20 -y 20`
+`-y`       | -             | The y-Coordinate to display the agent | `clippsay "Hello World" -x 20 -y 20`
+`-r`       | `--random`    | Spawns the agent at a random x-/y-coordinate | `clippsay "Hello World" -r`
+`--nohold` | -             | Makes the bubble disappear after 2 seconds | `clippsay "Hello World" --nohold`
+`-a` | `--animation`       | Display an animation. All the animations are on [smore.com/clippy-js](https://www.smore.com/clippy-js)  | `clippsay "Hello World" -a Alert -a Explain -a CheckingSomething`
+
+
+
 ## Features
 
 - Clippy!
