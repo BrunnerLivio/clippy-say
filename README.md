@@ -34,7 +34,8 @@ clippysay "Hello World" --character "Merlin"
 clippysay "Hello my Dudes" \
     --animation Alert \
     --animation Explain \
-    --animation CheckingSomething
+    --animation CheckingSomething \
+    --nohold
 
 ```
 
@@ -47,7 +48,7 @@ clippysay "Hello my Dudes" \
 `-y`       | -             | The y-Coordinate to display the agent | `clippysay "Hello World" -x 20 -y 20`
 `-r`       | `--random`    | Spawns the agent at a random x-/y-coordinate | `clippysay "Hello World" -r`
 `--nohold` | -             | Makes the speech-bubble disappear after 2 seconds | `clippysay "Hello World" --nohold`
-`-a` | `--animation`       | Display an animation. All the animations are on [smore.com/clippy-js](https://www.smore.com/clippy-js)  | `clippysay "Hello World" -a Alert -a Explain -a CheckingSomething`
+`-a` | `--animation`       | Display an animation. All the animations are on [smore.com/clippy-js](https://www.smore.com/clippy-js)  | `clippysay "Hello World" -a Alert -a Explain -a CheckingSomething --nohold`
 
 
 
