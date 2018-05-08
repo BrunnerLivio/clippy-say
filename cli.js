@@ -9,4 +9,4 @@ const characters = ['Merlin', 'Clippy', 'Rover', 'Links'];
 let character = argv.c || argv.character || 'Clippy';
 if(characters.indexOf(character) === -1) return console.error(`"${character}" is not a valid character. Use ${characters.join(', ')} instead`);
 
-proc.spawn(electron, ['.', ...process.argv.slice(2)]);
+proc.spawn(electron, [__dirname, ...process.argv.slice(2)]);
