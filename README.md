@@ -12,9 +12,10 @@ You need to install [NodeJS 8.x.x](https://nodejs.org/en/), in order to install 
 # Install electron
 # If you have trouble installing it, you may use BUT WITH CAUTION
 # npm insall -g electron --unsafe-perm=true --allow-root
-npm install -g electron 
+npm install -g electron
 npm install -g clippy-say
 ```
+
 ## Usage
 
 After the [installation](#install), `clippy-say` can be used as described.
@@ -24,9 +25,16 @@ After the [installation](#install), `clippy-say` can be used as described.
 # Run clippy
 clippysay
 
-# Run Merlin and let him speak "Hello World"
+# Run Merlin and let him say "Hello World"
 # Possible characters: "Clippy", "Merlin", "Rover" and "Links"
 clippysay "Hello World" --character "Merlin"
+
+# Play animations with the -a parameter
+# All the possible animations can be found on https://www.smore.com/clippy-js
+clippysay "Hello my Dudes" \
+    --animation Alert \
+    --animation Explain \
+    --animation CheckingSomething
 
 ```
 
@@ -48,7 +56,6 @@ clippysay "Hello World" --character "Merlin"
 >You can check out the full license [here](LICENSE)
 
 This project is licensed under the terms of the **MIT** license.
-
 
 ## Notice
 
